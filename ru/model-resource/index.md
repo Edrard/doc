@@ -507,7 +507,7 @@ protected function pageComponents(): array
 {
     return [
         Modal::make(
-            'My Modal'
+            'My Modal',
             components: Components::make([
                 FormBuilder::make()->fields([
                     Text::make('Title')
